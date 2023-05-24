@@ -8,7 +8,7 @@
 
 public class BangunDatarGenericTest {
     public static void main(String[] args){
-        Lingkaran 1 - new Lingkaran(2);
+        Lingkaran 1 = new Lingkaran(2);
         BangunDatarGeneric<Lingkaran> bdg =
                 new BangunDatarGeneric<Lingkaran>();
         bdg.set(1);
