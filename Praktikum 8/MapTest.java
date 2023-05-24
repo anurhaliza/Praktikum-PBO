@@ -21,8 +21,9 @@ public class MapTest{
         Set<Integer> key = map.keySet();
         // bagaimana iterasi untuk mengambil keseluruhan?
         // berikut adalah iterasi untuk mengambil keseluruhan nilai dari kunci
-    for (Integer k : key){
-        String value = map.get(k);
-        System.out.println(value);
+        for (Integer k : key){
+            String value = map.get(k);
+            System.out.println(value);
+        }
     }
 }
